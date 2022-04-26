@@ -12,6 +12,7 @@ import {
   faSun,
   faUser as fasUser,
 } from '@fortawesome/free-solid-svg-icons';
+import styles from './Icon.module.scss';
 
 const Icon = ({ icon }) => {
   const chooseIcon = (iconName) => {
@@ -49,7 +50,7 @@ const Icon = ({ icon }) => {
     }
   };
 
-  return <FontAwesomeIcon icon={chooseIcon(icon)} />;
+  return <FontAwesomeIcon icon={chooseIcon(icon)} className={styles.icon} />;
 };
 
 export default Icon;

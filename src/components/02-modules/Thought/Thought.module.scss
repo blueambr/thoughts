@@ -13,10 +13,6 @@
   padding: rem(30) rem(10);
   border-bottom: rem(1) solid $color-border;
 
-  &:first-child {
-    padding-top: rem(10);
-  }
-
   &__title {
     margin-bottom: rem(10);
     color: $color-text;
