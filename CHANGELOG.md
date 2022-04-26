@@ -1,3 +1,12 @@
+## [1.0.1](https://github.com/hotepp/thoughts/compare/v1.0.0...v1.0.1) (2022-04-26)
+
+
+### Bug Fixes
+
+* icons size in nextjs, padding for thought content ([94199fb](https://github.com/hotepp/thoughts/commit/94199fb40f01f25ec7cbf4a1429775c638a75e19))
+
+
+
 # [1.0.0](https://github.com/hotepp/thoughts/compare/v0.2.0...v1.0.0) (2022-04-26)
 
 
