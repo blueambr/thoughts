@@ -1,3 +1,12 @@
+# [2.0.0](https://github.com/hotepp/thoughts/compare/v1.0.1...v2.0.0) (2022-04-26)
+
+
+### Features
+
+* add exercise 2, add Modal module, finish stylings, fix problems ([13c1f6f](https://github.com/hotepp/thoughts/commit/13c1f6f9faa2e6570af25c50d712f892e85b1297))
+
+
+
 ## [1.0.1](https://github.com/hotepp/thoughts/compare/v1.0.0...v1.0.1) (2022-04-26)
 
 
