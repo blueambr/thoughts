@@ -1,0 +1,40 @@
+@import 'src/styles/includes';
+
+.section {
+  background-color: $color-bg;
+}
+
+.button {
+  display: block;
+  width: 100%;
+  padding: rem(10) 0;
+
+  @include hf {
+    .text {
+      text-decoration: underline;
+    }
+  }
+
+  &.active {
+    .svg,
+    .text {
+      color: $color-primary;
+    }
+  }
+}
+
+.icon {
+  margin-bottom: rem(6);
+}
+
+.svg {
+  font-size: rem(20);
+  color: $color-text;
+}
+
+.text {
+  @include font(700);
+  text-transform: uppercase;
+  font-size: rem(10);
+  color: $color-text;
+}

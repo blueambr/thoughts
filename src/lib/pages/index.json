@@ -1,0 +1,32 @@
+{
+  "page": {
+    "title": "Thoughts"
+  },
+  "nav": [
+    {
+      "id": "id1",
+      "icon": "clipboard",
+      "iconAlt": "sclipboard",
+      "text": "Program"
+    },
+    {
+      "id": "id2",
+      "icon": "message",
+      "iconAlt": "smessage",
+      "text": "Messages"
+    },
+    {
+      "id": "id3",
+      "isActive": true,
+      "icon": "comment",
+      "iconAlt": "scomment",
+      "text": "Thoughts"
+    },
+    {
+      "id": "id4",
+      "icon": "user",
+      "iconAlt": "suser",
+      "text": "Me"
+    }
+  ]
+}
