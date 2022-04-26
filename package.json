@@ -1,6 +1,6 @@
 {
   "name": "@hotepp/next-story",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Create Next App coupled with Storybook and extended with linters, styles adjustments, pre-commit feature and more",
   "repository": {
     "type": "git",
