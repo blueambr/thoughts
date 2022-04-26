@@ -6,5 +6,5 @@ export default {
   component: Head,
 };
 
-export const Default = () => <Head data={data.head} />;
+export const Default = () => <Head data={data.head} openThought={null} />;
 Default.storyName = 'Head';

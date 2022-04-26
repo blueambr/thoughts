@@ -1,4 +1,4 @@
-import data from '/src/lib/pages/index.json';
+import data from '/src/lib/pages/thoughts.json';
 import Thoughts from './index';
 
 export default {
@@ -6,5 +6,5 @@ export default {
   component: Thoughts,
 };
 
-export const Default = () => <Thoughts data={data.thoughts} />;
+export const Default = () => <Thoughts data={data.thoughts} openThought={null} />;
 Default.storyName = 'Thoughts';

@@ -11,6 +11,7 @@ import {
   faRainbow,
   faSun,
   faUser as fasUser,
+  faXmark,
 } from '@fortawesome/free-solid-svg-icons';
 import styles from './Icon.module.scss';
 
@@ -45,6 +46,8 @@ const Icon = ({ icon }) => {
         return faUser;
       case 'suser':
         return fasUser;
+      case 'xmark':
+        return faXmark;
       default:
         return null;
     }

@@ -7,6 +7,12 @@
   background-color: $color-bg;
 }
 
+.add {
+  @include touch {
+    margin: 0 $container-padding * -1;
+  }
+}
+
 .button {
   @include trans;
   display: block;

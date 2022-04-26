@@ -16,6 +16,11 @@ h1.text {
   font-size: rem(16);
 }
 
+h2.text {
+  @include font(700);
+  font-size: rem(30);
+}
+
 h3.text {
   @include font(700);
   font-size: rem(20);

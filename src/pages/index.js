@@ -6,8 +6,9 @@ import Thoughts from '@/sections/Thoughts';
 import Nav from '@/sections/Nav';
 
 const Home = () => {
-  const { page, head, thoughts, nav } = data;
+  const { page, head, modal, nav } = data;
 
+  const [thoughts, setThoughts] = useState([]);
   const [openThought, setOpenThought] = useState(null);
 
   return (
@@ -15,7 +16,7 @@ const Home = () => {
       <Layout data={page}>
         <Head data={head} openThought={openThought} setOpenThought={setOpenThought} />
         <Thoughts data={thoughts} openThought={openThought} setOpenThought={setOpenThought} />
-        <Nav data={nav} />
+        <Nav data={nav} modal={modal} thoughts={thoughts} setThoughts={setThoughts} />
       </Layout>
     </>
   );

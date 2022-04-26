@@ -1,0 +1,65 @@
+@import 'src/styles/includes';
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: auto;
+  width: 100%;
+  height: 100%;
+  background-color: $color-bg;
+}
+
+.close {
+  width: 100%;
+  padding: rem(20);
+  text-align: right;
+  font-size: rem(30);
+  color: $color-text;
+}
+
+.wrapper {
+  padding: 0 rem(20) rem(20);
+}
+
+.item {
+  &:not(:last-child) {
+    margin-bottom: rem(30);
+  }
+}
+
+.title {
+  margin-bottom: rem(16);
+}
+
+.icon-button {
+  &.active {
+    .icon {
+      color: $color-primary;
+    }
+  }
+}
+
+.icon {
+  font-size: rem(40);
+  color: $color-text;
+}
+
+.textarea {
+  width: 100%;
+  height: rem(140);
+  padding: rem(10);
+  box-shadow: $shadow;
+  font-size: rem(14);
+  color: $color-text;
+  background-color: $color-bg-secondary;
+}
+
+.button {
+  margin-top: rem(40);
+}
+
+.error {
+  margin-top: rem(10);
+  color: red;
+}

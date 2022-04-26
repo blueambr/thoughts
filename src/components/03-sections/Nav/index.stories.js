@@ -6,5 +6,5 @@ export default {
   component: Nav,
 };
 
-export const Default = () => <Nav data={data.nav} />;
+export const Default = () => <Nav data={data.nav} modal={data.modal} />;
 Default.storyName = 'Nav';

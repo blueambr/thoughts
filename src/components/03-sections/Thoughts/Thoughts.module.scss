@@ -12,10 +12,29 @@
 
 .wrapper {
   position: relative;
+  width: 100%;
 }
 
 .item {
   &:not(:last-child) {
     margin-bottom: rem(20);
+  }
+}
+
+.callout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+
+  &__title {
+    margin-bottom: rem(20);
+  }
+
+  &__text {
+    max-width: rem(200);
   }
 }

@@ -1,0 +1,21 @@
+@import 'src/styles/includes';
+
+.button {
+  @include font(700);
+  display: block;
+  width: 100%;
+  padding: rem(16);
+  text-transform: uppercase;
+  color: $color-text-light;
+  background-color: $color-primary;
+
+  @include hf {
+    text-decoration: underline;
+  }
+
+  &.type {
+    &_2 {
+      border-radius: 25px;
+    }
+  }
+}
