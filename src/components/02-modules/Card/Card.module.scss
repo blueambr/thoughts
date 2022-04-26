@@ -1,0 +1,58 @@
+@import 'src/styles/includes';
+
+.button {
+  display: flex;
+  align-items: center;
+
+  @include hf {
+    .title {
+      text-decoration: underline;
+    }
+  }
+}
+
+.icon {
+  margin-right: rem(20);
+
+  svg {
+    font-size: rem(40);
+    color: $color-text;
+  }
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+
+  &.alternate {
+    padding: rem(20) rem(10) rem(20) rem(20);
+    box-shadow: $shadow;
+  }
+}
+
+.text {
+  text-align: left;
+}
+
+.title {
+  margin-bottom: rem(6);
+}
+
+.arrow {
+  margin-left: rem(20);
+
+  &.back {
+    margin-right: rem(20);
+    margin-left: 0;
+
+    svg {
+      transform: rotate(180deg);
+    }
+  }
+
+  svg {
+    font-size: rem(20);
+    color: $color-primary;
+  }
+}

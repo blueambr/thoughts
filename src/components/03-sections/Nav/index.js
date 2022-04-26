@@ -1,5 +1,6 @@
 import clsx from 'clsx';
 import Icon from '@/elements/Icon';
+import Text from '@/elements/Text';
 import styles from './Nav.module.scss';
 
 const Item = ({ data }) => {
@@ -11,7 +12,9 @@ const Item = ({ data }) => {
         <div className={styles.icon}>
           <Icon icon={!isActive ? icon : iconAlt} />
         </div>
-        <div className={styles.text}>{text}</div>
+        <div className={styles.text}>
+          <Text {...text} />
+        </div>
       </button>
     </div>
   );
@@ -19,7 +22,7 @@ const Item = ({ data }) => {
 
 const Nav = ({ data }) => {
   return (
-    <section className={styles.section}>
+    <footer className={styles.footer}>
       <div className="container">
         <div className={styles.wrapper}>
           <ul className="columns is-mobile">
@@ -31,7 +34,7 @@ const Nav = ({ data }) => {
           </ul>
         </div>
       </div>
-    </section>
+    </footer>
   );
 };
 

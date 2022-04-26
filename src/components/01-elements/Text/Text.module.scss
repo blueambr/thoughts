@@ -1,19 +1,22 @@
 @import 'src/styles/includes';
 
 .text {
-  color: $color-text;
+  &.small {
+    @include font(700);
+    font-size: rem(10);
+  }
 
-  a {
-    color: $color-primary;
-
-    @include hf {
-      text-decoration: underline;
-    }
+  &.rte {
+    font-size: rem(20);
   }
 }
 
 h1.text {
   @include font(700);
-  text-transform: uppercase;
   font-size: rem(16);
+}
+
+h3.text {
+  @include font(700);
+  font-size: rem(20);
 }

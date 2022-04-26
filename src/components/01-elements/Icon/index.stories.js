@@ -9,7 +9,22 @@ export default {
     },
   },
   argTypes: {
-    icon: { name: 'Icon', control: 'radio', options: ['comment', 'clipboard', 'message', 'user'] },
+    icon: {
+      name: 'Icon',
+      control: 'radio',
+      options: [
+        'comment',
+        'chevron-right',
+        'clipboard',
+        'cloud',
+        'cloud-rain',
+        'cloud-sun',
+        'message',
+        'rainbow',
+        'sun',
+        'user',
+      ],
+    },
   },
 };
 

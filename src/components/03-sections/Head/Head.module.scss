@@ -2,6 +2,11 @@
 
 .section {
   padding: rem(20) 0;
-  text-align: center;
   background-color: $color-bg-primary;
+}
+
+.title {
+  text-align: center;
+  text-transform: uppercase;
+  color: $color-text;
 }

@@ -8,31 +8,157 @@
       "tag": "h1"
     }
   },
+  "thoughts": [
+    {
+      "id": "thoughtId1",
+      "icon": "cloud-rain",
+      "title": {
+        "text": "I need to think more what the other person is feeling",
+        "tag": "h3"
+      },
+      "date": {
+        "text": "<time datetime='2018-12-09 16:22'>December 9, 2018 4:22 pm</time>",
+        "tag": "span",
+        "modificator": "small"
+      },
+      "content": [
+        {
+          "id": "thoughtContentId1",
+          "title": {
+            "text": "Is there any evidence your thought is true?",
+            "tag": "h3"
+          },
+          "text": {
+            "text": "Yes, Bill was very rude to me.",
+            "tag": "div",
+            "modificator": "rte"
+          }
+        }
+      ]
+    },
+    {
+      "id": "thoughtId2",
+      "icon": "cloud-rain",
+      "title": {
+        "text": "2 I need to think more what the other person is feeling 2",
+        "tag": "h3"
+      },
+      "date": {
+        "text": "<time datetime='2018-12-09 16:22'>December 9, 2018 4:22 pm</time>",
+        "tag": "span",
+        "modificator": "small"
+      },
+      "content": [
+        {
+          "id": "thoughtContentId1",
+          "title": {
+            "text": "2 Is there any evidence your thought is true? 2",
+            "tag": "h3"
+          },
+          "text": {
+            "text": "2 Yes, Bill was very rude to me. 2",
+            "tag": "div",
+            "modificator": "rte"
+          }
+        }
+      ]
+    },
+    {
+      "id": "thoughtId3",
+      "icon": "cloud-rain",
+      "title": {
+        "text": "3 I need to think more what the other person is feeling 3",
+        "tag": "h3"
+      },
+      "date": {
+        "text": "<time datetime='2018-12-09 16:22'>December 9, 2018 4:22 pm</time>",
+        "tag": "span",
+        "modificator": "small"
+      },
+      "content": [
+        {
+          "id": "thoughtContentId1",
+          "title": {
+            "text": "3 Is there any evidence your thought is true? 3",
+            "tag": "h3"
+          },
+          "text": {
+            "text": "3 Yes, Bill was very rude to me. 3",
+            "tag": "div",
+            "modificator": "rte"
+          }
+        }
+      ]
+    },
+    {
+      "id": "thoughtId4",
+      "icon": "cloud-rain",
+      "title": {
+        "text": "4 I need to think more what the other person is feeling 4",
+        "tag": "h3"
+      },
+      "date": {
+        "text": "<time datetime='2018-12-09 16:22'>December 9, 2018 4:22 pm</time>",
+        "tag": "span",
+        "modificator": "small"
+      },
+      "content": [
+        {
+          "id": "thoughtContentId1",
+          "title": {
+            "text": "4 Is there any evidence your thought is true? 4",
+            "tag": "h3"
+          },
+          "text": {
+            "text": "4 Yes, Bill was very rude to me. 4",
+            "tag": "div",
+            "modificator": "rte"
+          }
+        }
+      ]
+    }
+  ],
   "nav": [
     {
       "id": "id1",
       "icon": "clipboard",
       "iconAlt": "sclipboard",
-      "text": "Program"
+      "text": {
+        "text": "Program",
+        "tag": "span",
+        "modificator": "small"
+      }
     },
     {
       "id": "id2",
       "icon": "message",
       "iconAlt": "smessage",
-      "text": "Messages"
+      "text": {
+        "text": "Messages",
+        "tag": "span",
+        "modificator": "small"
+      }
     },
     {
       "id": "id3",
       "isActive": true,
       "icon": "comment",
       "iconAlt": "scomment",
-      "text": "Thoughts"
+      "text": {
+        "text": "Thoughts",
+        "tag": "span",
+        "modificator": "small"
+      }
     },
     {
       "id": "id4",
       "icon": "user",
       "iconAlt": "suser",
-      "text": "Me"
+      "text": {
+        "text": "Me",
+        "tag": "span",
+        "modificator": "small"
+      }
     }
   ]
 }

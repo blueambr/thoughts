@@ -1,0 +1,28 @@
+@import 'src/styles/includes';
+
+.content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: $color-bg;
+}
+
+.item {
+  padding: rem(30) rem(10);
+  border-bottom: rem(1) solid $color-border;
+
+  &:first-child {
+    padding-top: rem(10);
+  }
+
+  &__title {
+    margin-bottom: rem(10);
+    color: $color-text;
+  }
+
+  &__text {
+    color: $color-text-secondary;
+  }
+}

@@ -1,0 +1,21 @@
+@import 'src/styles/includes';
+
+.section {
+  display: flex;
+  flex-grow: 1;
+
+  :global(.container) {
+    display: flex;
+    overflow: auto;
+  }
+}
+
+.wrapper {
+  position: relative;
+}
+
+.item {
+  &:not(:last-child) {
+    margin-bottom: rem(20);
+  }
+}
