@@ -1,3 +1,12 @@
+# [0.2.0](https://github.com/hotepp/thoughts/compare/v0.1.1...v0.2.0) (2022-04-26)
+
+
+### Features
+
+* create Head section, create Icon, Text elements ([450ef2f](https://github.com/hotepp/thoughts/commit/450ef2f93828f0fab2802bc0291653feec122ac4))
+
+
+
 ## [0.1.1](https://github.com/hotepp/thoughts/compare/v0.1.0...v0.1.1) (2022-04-26)
 
 
