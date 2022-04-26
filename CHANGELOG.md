@@ -1,3 +1,12 @@
+# [1.0.0](https://github.com/hotepp/thoughts/compare/v0.2.0...v1.0.0) (2022-04-26)
+
+
+### Features
+
+* finish the first excercise ([3033c60](https://github.com/hotepp/thoughts/commit/3033c6058a4fa01d4050f256a53ee08e530822bd))
+
+
+
 # [0.2.0](https://github.com/hotepp/thoughts/compare/v0.1.1...v0.2.0) (2022-04-26)
 
 
