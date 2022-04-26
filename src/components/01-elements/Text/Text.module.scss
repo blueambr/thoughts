@@ -1,0 +1,19 @@
+@import 'src/styles/includes';
+
+.text {
+  color: $color-text;
+
+  a {
+    color: $color-primary;
+
+    @include hf {
+      text-decoration: underline;
+    }
+  }
+}
+
+h1.text {
+  @include font(700);
+  text-transform: uppercase;
+  font-size: rem(16);
+}

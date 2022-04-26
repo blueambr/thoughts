@@ -16,7 +16,7 @@
   }
 
   &.active {
-    .svg,
+    .icon svg,
     .text {
       color: $color-primary;
     }
@@ -25,11 +25,11 @@
 
 .icon {
   margin-bottom: rem(6);
-}
 
-.svg {
-  font-size: rem(20);
-  color: $color-text;
+  svg {
+    font-size: rem(20);
+    color: $color-text;
+  }
 }
 
 .text {

@@ -2,6 +2,12 @@
   "page": {
     "title": "Thoughts"
   },
+  "head": {
+    "title": {
+      "text": "Thoughts",
+      "tag": "h1"
+    }
+  },
   "nav": [
     {
       "id": "id1",
