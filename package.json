@@ -1,29 +1,17 @@
 {
-  "name": "@hotepp/next-story",
+  "name": "@hotepp/thoughts",
   "version": "0.1.0",
-  "description": "Create Next App coupled with Storybook and extended with linters, styles adjustments, pre-commit feature and more",
+  "description": "Thoughts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hotepp/next-story.git"
+    "url": "https://github.com/hotepp/thoughts.git"
   },
   "keywords": [
-    "create-next-app",
-    "storybook",
-    "next-story",
-    "cna",
-    "sb",
-    "ns",
-    "react",
-    "next",
-    "nextjs",
-    "builder",
-    "task runner",
-    "ui",
-    "component explorer"
+    "thoughts"
   ],
   "author": "Vlad Gerasimovich <hotepp@pm.me>",
   "license": "ISC",
-  "bugs": "https://github.com/hotepp/next-story/issues",
+  "bugs": "https://github.com/hotepp/thoughts/issues",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
     "@fortawesome/free-regular-svg-icons": "^6.1.1",
