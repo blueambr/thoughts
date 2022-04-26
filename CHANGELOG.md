@@ -1,3 +1,12 @@
+## [0.1.1](https://github.com/hotepp/thoughts/compare/v0.1.0...v0.1.1) (2022-04-26)
+
+
+### Bug Fixes
+
+* update package.json info, LICENSE and README.md ([ff03e5e](https://github.com/hotepp/thoughts/commit/ff03e5e87788b3d0d33f32ab4b6769a96cba249b))
+
+
+
 # 0.1.0 (2022-04-26)
 
 
